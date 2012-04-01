@@ -1,5 +1,22 @@
 .firstBlock{
-  min-width: 700px;
+  min-height: 700px;
   background: -moz-linear-gradient(top, #1D2A58, #1D2AFF);
+  background: -webkit-linear-gradient(top, #1D2A58, #1D2AFF);
   color: black;
+  border-radius: 10px;
+}
+.justify{
+  text-align: justify;
+}
+.secondBlock{
+  min-height: 700px;
+  background: -moz-radial-gradient(center, #046817,#043617);
+  background: -webkit-radial-gradient(center,  ,);
+  border-radius: 10px;
+}
+.thirdBlock{
+  min-height: 700px;
+  background: -moz-radial-gradient(center, black, #2F2E31);
+  background: -webkit-radial-gradient(center, black, #2F2E31);
+  border-radius:;
 }
